@@ -5,3 +5,7 @@ class HotelCustomer:
 
     def __str__(self):
         return f"{self.first_name} {self.last_name}"
+
+class Needs:
+    def __init__(self,needs):
+        self.needs = []
